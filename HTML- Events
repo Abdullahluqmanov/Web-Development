@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <header class="main-header">
+                <h1 id="bigh1">Welcome to Mr.LIZARD's Vape shop!</h1>
+                <nav class="mainnav">
+                    <ul>
+                        <li><a href="about.html" target="_blank">About</a></li>
+                        <li><a href="store.html" target="_blank">Store</a></li>
+                        <li><a href="events.html" target="_blank">Events</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            <h2 class = "sub-title">Come and break THE HABIT tdy!</h2>
+            <!-- <div class= "container"> -->
+                <button class = "btn btn-header" type="button">Watch the intro</button>
+                <button class = "btn btn-round" type="button">&#9658;</button>
+
+            </div>
+            
+        </header>
+        <hr>
+        <section>
+            <h2>Experience trip</h2>
+            <div>
+                <div>
+                    <strong>AUG 28</strong> 
+                    &lt;&gt;
+                    <span>Sydeny, NSW</span>
+                    &lt;&gt;
+                    <span>BREAK THE HABIT headquarter</span>
+                    &lt;&gt;
+                    <button type="button">BOOK THE EVENT</button> 
+                    <hr>
+                </div>
+                <div>
+                    <strong>Jul 28</strong> 
+                    &lt;&gt;
+                    <span>Brisbane, QLD</span>
+                    &lt;&gt;
+                    <span>McAuther Building</span>
+                    &lt;&gt;
+                    <button type="button">BOOK THE EVENT</button> 
+                    <hr>
+                </div>
+                <div>
+                    <strong>Feb 23</strong> 
+                    &lt;&gt;
+                    <span>Perth, WA</span>
+                    &lt;&gt;
+                    <span>Old mining whole</span>
+                    &lt;&gt;
+                    <button type="button">BOOK THE EVENT</button> 
+                    <hr>
+                </div>
+                <div>
+                    <strong>Jan 28</strong> 
+                    &lt;&gt;
+                    <span>Newcastle, NSW</span>
+                    &lt;&gt;
+                    <span>Villege Whole</span>
+                    &lt;&gt;
+                    <button type="button">BOOK THE EVENT</button> 
+                    
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li>Disclaimer</li>
+                <li>Contact Info</li>
+                <li>Community</li>
+            </ul>
+        </footer>
+    </body>
+</html>
