@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="main-header">
+         <h1 id="bigh1">Welcome to Mr.LIZARD's Vape shop!</h1>
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="store.html" target="_blank">Store</a></li>
+                    <li><a href="events.html" target="_blank">Events</a></li>
+                </ul>
+            </nav>
+            <h2 class="sub-title" >BREAK THE HABIT TODAY!</h2>
+        </header>
+        <section class="content-section">
+            <h3>Vope Pens</h3>
+            <div>
+                <div>
+                    <strong>Classic device</strong>
+                </div>
+                <img src="Pics/lizard.jfif" height="150">
+                <div>
+                    <span>$1.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <strong>2end Gen lizard</strong>
+                </div>
+                <img src="pics/gen2.jpg" height="150">
+                <div>
+                    <span>$0.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <strong>THE E-BOOM</strong>
+                </div>
+                <img src="Pics/boom.jfif" height="150">
+                <div>
+                    <span>$4.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <strong>Soviet STAR</strong>
+                </div>
+                <img src="pics/soviet.jpg" height="150">
+                <div>
+                    <span>$.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h3>E-liqod</h3>
+            <div>
+                <div>
+                    <strong>Spoild Tuna</strong>
+                </div>
+                <div>
+                    <img src="Pics/tuna.jfif" height="120">
+                </div>
+                <div>
+                    <span>$29.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <strong>Uncle Sam's</strong>
+                </div>
+                <div>
+                    <img src="pics/unclesam.jfif" height="150">
+                </div>
+                <div>
+                    <span>$19.99</span>
+                    <button role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <strong>Angry KIM</strong>
+                </div>
+                <div>
+                    <img src="pics/angrykim.jpg.crdownload"height="150">
+                </div>
+                <div>
+                    <span>OUT OF STOCK</span>
+                    <button role="button">BID NOW</button>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h3>Merch</h3>
+            <div>
+                <strong>ITEM</strong>
+                &lt;&gt;
+                <strong>PRICE</strong>
+                &lt;&gt;
+                <strong>QUNTITY</strong>
+            </div>
+            <div>
+                        
+                <span>Angry KIM</span>
+                &lt;&gt;
+                <strong>$1999.99</strong>
+                &lt;&gt;
+                <input type="number" value ="1">
+                <button role="button">REMOVE</button>
+            </div>
+            <div>
+                <img src="pics/unclesam.jfif" height = "40">
+                <span>Uncle Sam's</span>
+                &lt;&gt;
+                <strong>$19.9</strong>
+                &lt;&gt;
+                <input type="number" value="2">
+                <button role="button">REMOVE</button>
+            </div>
+            <hr>
+            <div>
+                <strong>TOTAL</strong>
+                <span>$2019.8</span>
+            </div>
+            <div>
+                <button role="button">PURCHASE</button>
+            </div>
+
+        </section>
+        <footer>
+            <h3>Contact Info</h3>
+            <ul>
+                <li><a href="https://linkedin.com" target="_blank"><img src="Pics/icon1.png" height="20"></a></li>
+                <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="https://google.com" target ="_blank" >Google</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
