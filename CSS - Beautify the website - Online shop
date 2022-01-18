@@ -1,0 +1,130 @@
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url(Fonts/BOOTERZZ.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Metal+Mania);
+
+*{
+    box-sizing: border-box;
+    font-family: 'tahoma';
+    color:#777  
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainnav ul{
+    margin: 0;
+    padding:0;
+}
+
+.mainnav li{
+    display: inline;
+}
+
+.mainnav a{
+    display: inline-block;
+    padding:1em;
+    color: white;
+    text-decoration: none;
+}
+
+.mainnav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.mainnav li{
+    padding:0, 5%;
+}
+
+.mainnav a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-header{
+background-image: url(pics/header.jfif);
+background-color:rgba(0, 0, 0, 0.25);
+background-blend-mode: multiply;
+padding-top: 30px;
+
+}
+
+#bigh1{
+    color: white;
+    font-family:"Booter - Zero Zero";
+    font-size: 100PX;
+}
+
+.sub-title{
+    text-align:center;
+    margin: 0;
+    font-size:4em;
+    color:greenyellow;
+    font-family: "Booter - Zero Zero"
+}
+
+.content-section{
+    margin:1em;
+}
+.container{
+    max-width:900px;
+    margin: 0 auto;
+    padding:0, 1.5em;
+}
+
+.about-the-store{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 50%;;
+
+}
+
+.main-footer{
+    background-color: lightgreen;
+}
+
+.sub-title2{
+    font-family: "Booter - Zero Zero";
+    font-size: 70px;
+    text-align: left;
+    margin:0;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding:.8em;
+    cursor: pointer;
+    border: 3px solid purple;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 500em;
+    font-family:"Tahoma";
+    font-size: 15px ;
+    font-weight: bold;
+    color: darkmagenta;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+
+.btn-round{
+    color: purple;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 0;
+    width: 60px; 
+    height: 60px;
+}
+  
