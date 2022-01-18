@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 id="bigh1">Welcome to Mr.LIZARD's Vape shop!</h1>
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="store.html" target="_blank">Store</a></li>
+                    <li><a href="events.html" target="_blank">Events</a></li>
+                </ul>
+            </nav>
+            <hr>
+            <h2 class="sub-title">Come and break THE HABIT tdy!</h2>
+        </header>
+        <section class="content-section container">
+            <h2 class="sub-title2">Health benefits of vaping</h2>
+            <img class="about-the-store"src="Pics/vapeabout.jpg" height="350">
+            <p>According to Johns Hopkins Medicine, vaping may be slightly less harmful than smoking. 
+                They note that a person who smokes inhales about 7,000 chemicals, whereas vaping likely involves a lower number of chemicals. 
+                The AHA note that vaping liquids contain fewer contaminants than cigarettes.
+                The AHATrusted Source note that vaping liquids contain fewer contaminants than cigarettes. 
+                However, they also state that vaping is not safe due to the following reasons:
+                E-cigarettes contain a large dose of nicotine, a substance known to slow the development of brains in fetuses, children, and teens.
+                The liquid that creates the vapor is dangerous to adults and children if they swallow or inhale it or get it on their skin.
+                Vaping also delivers several dangerous chemicals, including diacetyl, cancer-causing chemicals, heavy metals, and volatile organic compounds (VOCs).
+                Vaping may normalize smoking again as it becomes more popular.(source: Johns Hopkins Medicine)</p>
+
+            <p>Many thousands of people in the UK have already stopped smoking with the help of an e-cigarette. 
+                There's growing evidence that they can be effective.
+                Using an e-cigarette can help you manage your nicotine cravings. 
+                To get the best out of it, make sure you're using it as much as you need to and with the right strength of nicotine in your e-liquid.
+                A major UK clinical trial published in 2019 found that, when combined with expert face-to-face support, people who used e-cigarettes to quit smoking were twice as likely to succeed as people who used other nicotine replacement products, such as patches or gum.
+                You will not get the full benefit from vaping unless you stop smoking cigarettes completely. 
+                You can get advice from a specialist vape shop or your local stop smoking service.
+                Getting expert help from your local stop smoking service gives you the best chance of quitting smoking for good.</p> 
+        </section>
+        <footer class="main-footer">
+            <h3 class = "sub-title2">Contact Info</h3>
+            <ul>
+                <li><a href="https://youtube.com" target="_blank"><img src="pics/yicon.png" height= 40>Youtube</a></li>
+                <br>
+                <li><a href="https://Instagram.com" target="_blank"><img src="Pics/insicon.png" height = 40>Instagram</a></li>
+                <br>
+                <li><a href="https://google.com" target="_blank"><img src ="pics/gicon.jpg" height = 40>Google</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
