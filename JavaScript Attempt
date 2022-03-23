@@ -1,0 +1,160 @@
+// let todo1 = 'Do Wudu';
+
+// let todo2 = 'Pray Zuhor';
+
+// let todo3 = 'Heat the food';
+
+// let todo4 = 'Finish the lunch';
+
+let todos = ['Do Wudu', 'Pray zohur', 'Heat the food', 'Finish the lunch']
+
+// todos.push()  we are not going to use this
+
+
+todos.forEach(function (toDoTitle){        // What forEach method does is that it go through each item within the array and put them into the parameter of the function
+  let element = document.createElement('div');
+  element.innerText = toDoTitle; 
+  document.body.appendChild(element)                    
+
+});
+
+
+function addToDo(){
+  let textbox = document.getElementById('todo-Title');   // After the user click the button, this function will grab the textbox element (The code in this line tells the computer to get the HTML element by its ID)
+  let TextInside = textbox.value;   // By doing so we can get the value out of the textbox
+  todos.push(TextInside);
+  
+}
+
+
+
+
+// If we don't want to write the same code over and over agian: Use functions
+
+// function addToDo (toDoTitle){
+//   let element = document.createElement('div');
+//   element.innerText = toDoTitle;                     //Parameter is a variable inside the function. The output of the function will change if we change the value of that variable
+//   document.body.appendChild(element);
+
+// }
+
+// addToDo(todo1)
+
+// addToDo(todo2)
+
+// addToDo(todo3)
+
+// addToDo(todo4)
+
+// element = document.createElement('div');
+// element.innerText = todo2;
+// document.body.appendChild(element);
+
+
+// element = document.createElement('div');
+// element.innerText = todo3; 
+// document.body.appendChild(element);
+
+// element = document.createElement('div');
+// element.innerText = todo4;
+// document.body.appendChild(element);
+
+
+// Bellow are the practices:
+
+// let btn = document.createElement('button');
+// btn.innerText = 'Click ME!';
+// document.body.appendChild(btn);
+
+
+// // Use JS to change the title of the web page:
+
+//   //this is  the first way to do so: (dumb way)
+
+// let title = document.createElement('title');
+// title.innerText = 'NEW TITLE';
+// document.head.appendChild(title);
+
+//   //This is the second way to do so:
+
+// document.title = 'New tittttt'
+
+// document.title = 'SuperCoooooool To -do list :)'
+
+
+
+
+// More exercises:
+
+// greet function:
+
+// function greet (firstName) {
+//   console.log(`Hello ${firstName}`);
+
+// }
+
+// greet("Abu");
+
+
+// //toUpper function:
+
+// function toUpper(string) {
+//   console.log(string.toUpperCase());
+
+// }
+
+
+// toUpper('hola')
+
+
+
+//Practice 3:
+
+
+// let color = ['Red', 'Yellow', 'Pink']
+
+
+// function playArray (){
+// color.forEach(function arrayDouble(element){
+//   console.log(element.repeat(2));
+
+// }
+// )
+// }
+
+
+// playArray()
+// let newArray= [];
+
+// function printOut() {
+
+// color.forEach(function toUpper(core){
+//   core.toUpperCase();
+//   newArray.push(core);
+  
+// }
+
+// )
+
+// console.log(newArray);
+
+// }
+
+
+// // printOut()
+
+
+// let numary = [1,2,3,4,5]
+// let toal = 0
+
+// numary.forEach(function arraySum (x){
+//   console.log(x + total)
+
+
+
+// }
+
+// )
+
+
+// More exercises:
