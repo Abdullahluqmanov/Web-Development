@@ -1,0 +1,55 @@
+
+function ChangeText() {
+  let btn = document.getElementById('todo-button');
+  btn.innerText = 'Done';
+
+}
+
+
+let count = 0;
+
+function decrease() {
+
+  count = count - 1;
+  
+  let show = document.getElementById('counter1');   // This step is actually hock the function with the display: div element
+
+  show.innerText = count;
+}
+
+
+
+//  Here's the increase button:
+
+let count2 = 0;
+
+function Increase() {
+  count2 +=1;
+
+  let dis = document.getElementById("counter2");
+  dis.innerText = count2;
+
+
+}
+
+
+// Clear All result: 
+
+function Clear() {
+  res1 = document.getElementById('counter1');
+  res1.innerText = 0;
+  res2 = document.getElementById('counter2');
+  res2.innerText = 0;
+
+
+}
+
+
+function submit(){
+  contentEle = document.getElementById('Comment');
+  content = contentEle.value;
+  ReviewEle = document.getElementById('ShowComment');
+  ReviewEle.innerText = content;
+  
+
+}
