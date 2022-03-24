@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="These are my practices">
+  <title>Abu's jS Practices</title>
+  <script src="prac.js" async></script>
+</head>
+<body>
+  <h1>Abu's Little Counter</h1>
+  <button id="IncreaseBtn" onclick="Increase()">Up</button>
+  <button id="todo-button" onclick="ChangeText()">To Do</button>
+
+  <button id="DecreaseBtn" onclick="decrease()">Down</button>
+  <h5>Here's the result of Down BTN</h5>
+  <div id="counter1">0</div>
+
+  <h5>Here's the result of Up BTN</h5>
+  <div id="counter2">0</div>
+
+  <button id="Clear All Result" onclick="Clear()">ClearAllResult</button>
+ <br>
+ <br>
+ <hr>
+ <h3>Comment Area</h3>
+ <br>
+ <h5>Please leave your comment to this counter: </h5>
+  <div>
+  <input type="text" id="Comment"/>
+
+  <button id=" submitBTN" onclick="submit()"> Submit My Comment</button>
+
+  </div>
+
+  
+  <br>
+  <br>
+  <br>
+
+  <div>
+    <div><h5>Here's the preview of your comment, please be respectfull!</h5></div>
+    <div>
+      <p id="ShowComment">
+        Here's your comment
+      </p>
+    </div>
+    
+
+  </div>
+
+  
+</body>
+</html>
